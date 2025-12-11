@@ -128,7 +128,7 @@ export default function App() {
             <Toaster position="top-center" />
             <div className="min-h-screen bg-neutral-900 p-4 text-neutral-100 md:p-8">
                 <div className="mx-auto max-w-7xl">
-                    {/* header */}
+                    
                     <div className="mb-8 flex items-center justify-between">
                         <h1 className="text-3xl font-bold text-white">Task Manager</h1>
 
@@ -140,7 +140,7 @@ export default function App() {
                         </button>
                     </div>
 
-                    {/* board */}
+                    
                     <DndContext
                         sensors={sensors}
                         collisionDetection={closestCorners}

@@ -48,7 +48,7 @@ export default function AddTaskForm({ onClose }) {
     return (
         <div className="fixed inset-0 flex items-center justify-center bg-black/70 backdrop-blur-sm z-50">
             <div className="w-full max-w-md rounded-xl border border-neutral-700 bg-neutral-800 p-6 shadow-xl">
-                {/* Header */}
+                
                 <div className="flex items-center justify-between mb-6">
                     <h2 className="text-xl font-bold text-white">Add Task</h2>
                     <button onClick={onClose} className="text-neutral-400 hover:text-white">
@@ -56,7 +56,7 @@ export default function AddTaskForm({ onClose }) {
                     </button>
                 </div>
 
-                {/* Form */}
+                
                 <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                     <div>
                         <label className="block text-sm mb-1 text-neutral-300">Title</label>
